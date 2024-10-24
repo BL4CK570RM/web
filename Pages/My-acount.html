@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U Aladdin/my acount</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="..css/all.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <!-- icon -->
+    <link rel="icon" href="../images/Logo (3).jpg">
+
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <style>
+        .user-bio {
+            color: #c81f4e;
+            font-weight: bold;
+        }
+
+        .user-bio input {
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <!------------- Notice-Section -------------->
+    <div class="notice bg-light">
+        <marquee behavior="" direction="" onmouseover="this.stop()" onmouseout="this.start()"><span
+                class="font-weight-bold fixed">Notice: </span>
+            <!--change text-->
+            <span class="update font-weight-bold"> Welcome to our website. Please signup for order your goods</span>
+        </marquee>
+    </div>
+    <!------------ Nuvbar Section-------------------->
+    <nav class="navbar navbar-expand-sm navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html"><img src="../images/Logo (1).png" alt=""></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="games.html">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="leaderbord.html">Leaderbord</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contac.html">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item right-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item right-item">
+                        <a class="nav-link" href="signup.html">Sign up</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item active" href="My-acount.html">My Account</a>
+                            <a class="dropdown-item" href="order.html">My Order</a>
+                            <a class="dropdown-item" href="add-mony.html">Add Money</a>
+                            <a class="dropdown-item logout" href="#">Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!----------- navbar-end ------------->
+    <div class="container">
+
+        <div class="my_acount text-center my-4">
+
+            <img src="../images/avator.png" alt="" width="80" height="80">
+
+            <p>Hi,<span class="user_name">user</span></p>
+
+            <div class="card mx-auto m-3">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="upload_image card m-3">
+                                <input type="file" name="" id="">
+                            </div>
+                            <div class="amount_history card p-3 m-3">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eius, adipisci velit
+                                    neque officiis nostrum molestias maxime
+                                    reprehenderit nemo quasi esse voluptatem tenetur dolorem perspiciatis! Sed sapiente
+                                    libero iure perspiciatis!</p>
+                            </div>
+                        </div>
+
+                        <!----------- user-bio-section----------------->
+
+                        <div class="col-md-6 ">
+                            <div class="user-bio card text-left p-4 m-3">
+                                <!-- user-name -->
+                                <div class="user_name">
+                                    <label for="">My Name</label>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fa fa-user"
+                                                    aria-hidden="true"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" value="arafat" disabled>
+                                    </div>
+                                </div>
+                                <!-- user-name -->
+                                <div class="user_email">
+                                    <label for="">My Email</label>
+
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fa fa-envelope"
+                                                    aria-hidden="true"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" value="raselhasan.cse@gmail.com"
+                                            disabled>
+                                    </div>
+
+                                </div>
+                                <!-- user-name -->
+                                <div class="user_phone_number">
+                                    <label for="">My Phone Number</label>
+
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fa fa-phone"
+                                                    aria-hidden="true"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" value="01425639870" disabled>
+                                    </div>
+                                </div>
+                                <!-- user-name -->
+                                <div class="user_money">
+                                    <label for=""> My Money</label>
+
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fa fa-lira-sign"
+                                                    aria-hidden="true"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" value="20,000" disabled>
+                                    </div>
+                                </div>
+                                <!-- user-name -->
+                                <div class="user_lamp">
+                                    <label for=""> My Lamp</label>
+
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fab fa-angellist"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" value="5000" disabled>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <!---------------------- Footer ----------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 text-lg-left text-center p-2">
+                    <span style="font-size:14px;">© Copyright 2020. All Rights Reserved. Developed by...</span>
+                </div>
+                <div class="col-md-4 text-lg-right text-center p-2">
+                    <a href="#"><i class="fab ficon fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab ficon fa-youtube"></i></a>
+                    <a href="#"><i class="fab ficon fa-instagram"></i></a>
+                    <a href="#"><i class="fab ficon fa-twitter"></i></a>
+                    <a href="#"><i class="fab ficon fa-skype"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------ footer-end ---------->
+
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/all.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+#blog_section{
+     margin: auto;
+}
+.user-login{
+    background: #fff;
+    padding: 20px;
+    margin: 24px 0;
+    position: relative;
+}
+.box_1,.box_2,.box_3{
+    position: absolute;
+    top: -12px;
+    left: 15px;
+    width: 32px;
+    height: 32px;
+    background: #c81f4e;
+    border-radius: 50%;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price-box{
+    width: 150px;
+    height: auto;
+    padding: 12px 0;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    position: relative;
+    overflow: hidden;
+    margin: 3px;
+    color: gray;
+}
+.price{
+
+}
+ .chechbox{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top:-10px;
+    left:-10px;
+    background: #000;
+    /* opacity: 0; */
+}
+.price-section{
+    background: #fff;
+   position: relative;
+}
+.purchase{
+    position: relative;
+} 
+.purchase p{
+    padding: 16px 0;
+}

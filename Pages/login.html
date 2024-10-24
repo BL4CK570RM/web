@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U Aladdin/login</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="..css/all.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <!-- icon -->
+    <link rel="icon" href="../images/Logo (3).jpg">
+
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/all.js"></script>
+
+</head>
+
+<body>
+    <!------------- Notice-Section -------------->
+    <div class="notice bg-light">
+        <marquee behavior="" direction="" onmouseover="this.stop()" onmouseout="this.start()"><span
+                class="font-weight-bold fixed">Notice: </span>
+            <!--change text-->
+            <span class="update font-weight-bold"> Welcome to our website. Please signup for order your goods</span>
+        </marquee>
+    </div>
+    <!------------ Nuvbar Section-------------------->
+    <nav class="navbar navbar-expand-sm navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html"><img src="../images/Logo (1).png" alt=""></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="games.html">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="leaderbord.html">Leaderbord</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contac.html">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item right-item active">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item right-item">
+                        <a class="nav-link" href="signup.html">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!----------- navbar-end ------------->
+    <br><br>
+    <div class="loginForm mx-auto rounded">
+        <!-- user-icon -->
+        <div class="login-user mx-auto mb-3">
+            <img src="../images/avator.png" alt="">
+        </div>
+        <!-- facebook or google button -->
+        <p class="text-center font-weight-bold">Sign in with</p>
+        <div class="option text-center">
+            <span class="btn btn-info "><a href="#"><i class="fab opi fa-facebook"></i> Facebook </a></span>
+            <span class="btn btn-info"><a href="#"><i class="fab opi fa-google"></i> Google</a></span>
+        </div>
+        <hr>
+        <p class="form-note text-center">Or sign in with credentials</p>
+        <!-- login form item -->
+        <form action="">
+            <div class="form-group">
+                <div class="user-email">
+                    <label for="email" class="font-weight-bold m-0">Email</label>
+                    <input class="form-control" type="email" placeholder="Enter Email" name="" id="email" required>
+                </div>
+                <div class="user-password mt-3">
+                    <label for="password" class="font-weight-bold m-0">Password</label>
+                    <input class="form-control" type="password" placeholder="Enter Password" name="" id="password"
+                        required>
+                </div>
+                <div class="user-remember mt-4">
+                    <input class="form-check-label " type="checkbox" name="" id="check" checked>
+                    <label for="chech">Remember me</label>
+                </div>
+                <div class="button mt-4">
+                    <input class="btn btn-danger" type="submit" value="LOGIN">
+                    <span class="forget"><a href="#">Forget Your Password?</a></span>
+                </div>
+            </div>
+        </form>
+    </div>
+    <br><br><br><br>
+    <!---------------------- Footer ----------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 text-lg-left text-center p-2">
+                    <span style="font-size:14px;">© Copyright 2020. All Rights Reserved. Developed by...</span>
+                </div>
+                <div class="col-md-4 text-lg-right text-center p-2">
+                    <a href="#"><i class="fab ficon fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab ficon fa-youtube"></i></a>
+                    <a href="#"><i class="fab ficon fa-instagram"></i></a>
+                    <a href="#"><i class="fab ficon fa-twitter"></i></a>
+                    <a href="#"><i class="fab ficon fa-skype"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------ footer-end ---------->
+</body>
+
+</html>

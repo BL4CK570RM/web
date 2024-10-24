@@ -1,0 +1,51 @@
+.messaging{
+    background: #00000026;
+    padding: 16px 30px;
+}
+.contact{
+    background: #00000026;
+    padding: 32px 30px;
+}
+.jhenaidah-map{
+    background: #00000026;
+    padding: 30px;
+}
+.ricon{
+    font-size: 12px ;
+    margin: 0 12px;
+}
+.licon{
+    font-size: 18px ;
+    margin: 0 12px;
+}
+.contact h4{
+    font-size: 18px;
+    font-style: italic;
+}
+.contact h3{
+    text-transform: uppercase;
+    color: teal;
+    font-weight: normal;
+    font-size: 26px;
+    margin-left: 8px;
+}
+.contact-item{
+    background: #e6e6e691;
+    padding: 12px 22px;
+    margin: 6px;
+}
+.address{
+    color: darkcyan;
+
+}
+
+@media only screen and (max-width: 992px){
+   .contact{
+       margin: 0;
+       padding: 10px;
+
+   }
+   .contact h3{
+       font-size: 22px;
+   }
+}

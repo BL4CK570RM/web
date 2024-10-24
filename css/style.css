@@ -1,0 +1,171 @@
+body{
+    background: #f7fafc;
+}
+/* <!------------- Notice-Section --------------> */
+.notice{
+    padding: 5px 16px;
+    color: #e05578;
+    font-size: 18px;
+}
+.notice .fixed{
+    color: #000;
+}
+/* <!------------- Navbar Section ------------> */
+.navbar-brand img{
+    width: 150px;
+    height: auto;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: blue;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+.dropdown-item.logout{
+    border-top: 1px solid #ccc;
+}
+
+.owl-prev{
+    top: 38%;
+    left: 0;
+}
+.owl-next{
+    top: 38%;
+    right: 0;
+}
+
+.owl-theme .owl-nav [class*=owl-]{
+    color: #FFF!important;
+    font-size: 60px!important;
+    display: inline-flex!important;
+    cursor: pointer;
+    border-radius: 50%!important;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    justify-content: center!important;
+    align-items: center!important;
+    outline: none;
+
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    color: #FFF;
+    background: none!important;
+}
+
+/* ------- Service Section ----------- */
+.service_item a{
+    text-decoration: none;
+}
+.service_item_box{
+    width: 200px;
+    padding: 16px;
+    padding-bottom: 2px;
+    background: #f7fafc;
+}
+.new{
+    color: #0984e3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+.service_item_box img{
+    width: 100px;
+    height: 120px;
+    transition: 1s;
+}
+.service_item_box p{
+    padding-top: 20px;
+    color:#00a8ff;
+    font-weight: 700;
+}
+.service_item_box:hover img{
+    transform: scale(1.2);
+}
+/* <!--------- Customer Histry Section ---------> */
+.customer-section{
+    background-color:#0984e3;
+}
+
+.customer-item{
+    background-color:white;
+}
+.customer_section{
+    width: 60%;
+    margin: auto;
+}
+.customer-icon .icon{
+    font-size: 28px;
+    color: darkturquoise;
+}
+.customer-item h6{
+    color: #333333;
+    font-size: 30px;
+    padding:6px 0;
+}
+.customer-item h3{
+    font-weight: normal;
+    font-size: 24px;
+    color: #000;
+}
+/* <!---------------------- Footer -----------------> */
+.footer{
+    padding: 8px 0;
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.footer a{
+    font-size:14px;
+    color: white;
+    background:#0984e3;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer a:hover{
+    background-color:#ff0033;
+}
+
+
+ /*----- Rating-Revie ---------*/
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 2px 0;
+    font-size: 30px;
+}
+
+.rating>input {
+    display: none
+}
+
+.rating>label {
+    position: relative;
+    color: #00ffff;
+    cursor: pointer
+}
+
+.rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important
+}
+
+.rating>input:checked~label:before {
+    opacity: 1
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4
+}
+/*----- Rating-Revie end---------*/
